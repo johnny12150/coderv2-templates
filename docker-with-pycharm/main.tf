@@ -56,10 +56,10 @@ pip3 install projector-installer --user
 /home/coder/.local/bin/projector run pycharm1 &
 
 # clone 2 Python repos
-mkdir -p ~/.ssh
-ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts
-git clone --progress git@github.com:sharkymark/python_commissions.git &
-git clone --progress git@github.com:lalithpolepeddi/learning-flask.git &
+# mkdir -p ~/.ssh
+# ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts
+# git clone --progress git@github.com:sharkymark/python_commissions.git &
+# git clone --progress git@github.com:lalithpolepeddi/learning-flask.git &
 
 
 # install VS Code extensions into code-server
